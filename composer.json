@@ -1,0 +1,22 @@
+{
+    "name": "yourfrog/symfony-bundle-rodo",
+    "description": "Bundle for add rodo elements",
+    "authors": [
+        {
+            "name": "Paweł Stelmasiak",
+            "email": "pawel.stelmasiak.91@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "symfony/http-kernel": "^3.4",
+        "symfony/form": "^3.4",
+        "symfony/validator": "^3.4",
+        "symfony/options-resolver": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "YourFrog\\Symfony\\Bundle\\RodoBundle\\": "src/YourFrog/Symfony/Bundle/RodoBundle"
+        }
+    }
+}
